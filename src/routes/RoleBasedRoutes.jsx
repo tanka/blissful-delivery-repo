@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { Link, Navigate, useLocation } from "react-router-dom";
 import { Children } from "react";
-import { ROUTES, ROLES } from "../utility/constants";
+import { ROUTES, ROLES } from "../utility/constants.js";
 
 function RoleBasedRoutes({ allowedRoles, children }) {
   console.log("In RoleBased Routes ", allowedRoles);

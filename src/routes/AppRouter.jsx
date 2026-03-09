@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import Login from "../pages/auth/Login";
-import Register from "../pages/auth/Register";
-import Cart from "../pages/cart/Cart";
-import Checkout from "../pages/cart/Checkout";
-import MenuItemManagement from "../pages/menu/MenuItemManagement";
+import Home from "../pages/Home.jsx";
+import Login from "../pages/auth/Login.jsx";
+import Register from "../pages/auth/Register.jsx";
+import Cart from "../pages/cart/Cart.jsx";
+import Checkout from "../pages/cart/Checkout.jsx";
+import MenuItemManagement from "../pages/menu/MenuItemManagement.jsx";
 import MenuItemDetails from "../pages/menu/menuItemDetails.jsx";
-import OrderConfirmation from "../pages/order/OrderConfirmation";
-import OrderManagement from "../pages/order/OrderManagement";
-import { ROLES, ROUTES } from "../utility/constants";
-import RoleBasedRoutes from "./RoleBasedRoutes";
+import OrderConfirmation from "../pages/order/OrderConfirmation.jsx";
+import OrderManagement from "../pages/order/OrderManagement.jsx";
+import { ROLES, ROUTES } from "../utility/constants.jsx";
+import RoleBasedRoutes from "./RoleBasedRoutes.jsx";
 
 const AppRoutes = () => (
   <Routes>
