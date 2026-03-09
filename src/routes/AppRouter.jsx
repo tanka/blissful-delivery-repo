@@ -8,7 +8,7 @@ import MenuItemManagement from "../pages/menu/MenuItemManagement.jsx";
 import MenuItemDetails from "../pages/menu/menuItemDetails.jsx";
 import OrderConfirmation from "../pages/order/OrderConfirmation.jsx";
 import OrderManagement from "../pages/order/OrderManagement.jsx";
-import { ROLES, ROUTES } from "../utility/constants.jsx";
+import { ROLES, ROUTES } from "../utility/constants.js";
 import RoleBasedRoutes from "./RoleBasedRoutes.jsx";
 
 const AppRoutes = () => (
