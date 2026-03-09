@@ -5,7 +5,7 @@ import Register from "../pages/auth/Register";
 import Cart from "../pages/cart/Cart";
 import Checkout from "../pages/cart/Checkout";
 import MenuItemManagement from "../pages/menu/MenuItemManagement";
-import MenuItemDetails from "../pages/menu/MenuItemDetails";
+import MenuItemDetails from "../pages/menu/menuItemDetails.jsx";
 import OrderConfirmation from "../pages/order/OrderConfirmation";
 import OrderManagement from "../pages/order/OrderManagement";
 import { ROLES, ROUTES } from "../utility/constants";
