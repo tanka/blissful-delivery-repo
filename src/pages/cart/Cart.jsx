@@ -4,17 +4,11 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useCreateOrderMutation } from "../../store/api/ordersAPI.js";
 import {
-  addToCart,
   removeFromCart,
   updateQuantity,
   clearCart,
 } from "../../store/slice/cartSlice.js";
-import {
-  API_BASE_URL,
-  CATEGORIES,
-  ROUTES,
-  APP_NAME,
-} from "../../utility/constants";
+import { API_BASE_URL, ROUTES } from "../../utility/constants.js";
 
 function Cart() {
   const dispatch = useDispatch();
